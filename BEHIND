@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(void)
+{
+   char c;
+   int n;
+   cin >> c >> n;
+   char T;
+   if(c >= 'A' && c <= 'Z')
+   {
+      T = c + n;
+   }
+   cout << T;
+}
